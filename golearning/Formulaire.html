@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Contact-Go_Learning</title>
+	</head>
+<body>
+	<div id="bloc_page">
+		<header>
+			<div id="titre_principal">
+				<img src="images/GoLearning_logo.png" alt="Logo de Go Learning" id="logo" />
+			<h1>Go Learning</h1>
+				<h2> <em>Assistance éducative et formation enligne</em></h2>
+			</div>
+				<nav>
+					<ul>
+						<li><a href="MonSite.html">Accueil</a></li>
+						<li><a href="Articles.html">Articles</a></li>
+						<li><a href="Services.html">Services</a></li>
+						<li><a href="Contact.html">Contact</a></li>
+					</ul>
+				</nav>
+		</header>
+<form name="mon-formulaire1" action="page-envoi.html"method="get">
+<p>
+<input type="radio" name="civi" value="Elève"/> Elève
+<input type="radio" name="civi" value="Etudiant"/> Etudiant(e)
+<input type="radio" name="civi" value="Chercheur"/> Chercheur
+</p>
+<p>
+Votre Prénom: <br/>
+<input type="text" name="prenom" value=""/>
+</p>
+<p>
+Votre Nom: <br/>
+<input type="text" name="nom" value=""/>
+</p>
+<p>
+Votre mot de passe: <br/>
+<input type="password" name="passe" value=""/>
+</p>
+<p>
+Votre etes: <br/>
+<select name="profil">
+	<option value="parti"> Un particulier</option>
+	<option value="profe" selected="selected"> Un professionnel</option>
+	<option value="insti"> Un institutionnel</option>
+</select>
+</p>
+<p>
+Quel type de présebtation recherchez-vous?<br/>
+<input type="checkbox" name="interet" value="loc"/>
+Location de mobilier 
+<input type="checkbox" name="interet" value="achat"/>
+Achat de mobilier
+</p>
+<p>
+Votre message:<br/>
+<textarea name="le-message" rows="6" cols="40"> Vous pouvez saisir ici votre message
+</textarea>
+</p>
+<p>
+<input type="submit" value="Envoyer"/>
+<input type="reset" value="Annuler"/>
+</p>
+</form>
+<footer>
+	<div id="nos_partenaires">
+		<h1>Nos partenaires</h1>
+			<ul>
+				<li><a href="#">Feva Services</a></li>
+				<li><a href="#">Go Corporation</a></li>
+			</ul>
+	</div>
+</footer>
+	</div>
+	</body>
+</html>
